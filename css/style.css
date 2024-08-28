@@ -1,0 +1,140 @@
+/*Stlesheet by Ashmita, 2024*/
+
+.map {
+    border: medium solid #999;
+    margin: 10px 0 0 20px;
+    background-color: rgba(128,128,128,.2) ;
+}
+.regions{
+    stroke: #2f2e2e;
+    stroke-width: 0.4px;
+    font-weight: bold;
+}
+.mapTitle {
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    fill: #4b4b4b;
+}
+.numbers {
+    fill: rgb(16, 16, 16);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+.boundary {
+    fill: none;
+    stroke: #191818; /* Or any color you want for the boundary */
+    stroke-width: 1px;
+  }
+  .countries {
+    fill: #FFF;
+    stroke: #191818;
+    stroke-width: 1.5px;
+}
+.chart {
+    float: right;
+    margin:10px 0 0 20px;
+}
+
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 0.98em;
+    font-weight: bold;
+    fill: #4b4b4b;
+    white-space: pre-line;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: none;
+}
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+.option {
+    font-weight: normal;
+}
+
+.infolabel {
+    margin: 0 20px 0 0;    
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 15px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 15px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.text {
+    position: float; /* Fixed positioning */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Position at the left */
+    margin: 2px 2px 0 0; /* Adjust margins as needed */
+}
+.innerRect {
+    fill: #efedf5; /* Fill color of the inner rectangle */
+}
+
+.closeButton {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.mapInfo{
+    font-family: calibri;
+    font-size: 16.8px;
+    fill: #252424;
+}
